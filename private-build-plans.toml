@@ -1,0 +1,44 @@
+[buildPlans.IosevkaNew]
+family = "Iosevka New"
+spacing = "normal"
+serifs = "sans"
+noCvSs = false
+exportGlyphNames = false
+
+[buildPlans.IosevkaNew.variants.design]
+two = "straight-neck-serifless"
+seven = "straight-serifed"
+zero = "tall-slashed"
+capital-g = "toothless-rounded-serifless-hooked"
+capital-j = "serifless"
+capital-q = "crossing-baseline"
+f = "flat-hook-serifless"
+j = "flat-hook-serifless"
+t = "flat-hook"
+
+[buildPlans.IosevkaNew.widths.Normal]
+shape = 500
+menu = 5
+css = "normal"
+
+[buildPlans.IosevkaNew.widths.Extended]
+shape = 600
+menu = 7
+css = "expanded"
+
+[buildPlans.IosevkaNew.widths.SemiExtended]
+shape = 548
+menu = 6
+css = "semi-expanded"
+
+[buildPlans.IosevkaNew.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.IosevkaNew.slopes.Italic]
+angle = 9.4
+shape = "italic"
+menu = "italic"
+css = "italic"
